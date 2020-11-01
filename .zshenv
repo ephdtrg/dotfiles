@@ -1,1 +1,1 @@
-/home/euphemia/.zprezto/runcoms/zshenv
+.zprezto/runcoms/zshenv

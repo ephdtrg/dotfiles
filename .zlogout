@@ -1,1 +1,1 @@
-/home/euphemia/.zprezto/runcoms/zlogout
+.zprezto/runcoms/zlogout

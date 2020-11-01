@@ -1,1 +1,1 @@
-/home/euphemia/.zprezto/runcoms/zshrc
+.zprezto/runcoms/zshrc
