@@ -1,0 +1,17 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+sync-secrets() /home/euphemia/.local/bin/sync-secrets.py -s "$1"
+
+# Customize to your needs...
+alias genpasswd18='< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-18};echo;'
+alias ssh='TERM=xterm ssh'
